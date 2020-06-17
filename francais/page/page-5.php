@@ -19,12 +19,13 @@
         <p class="top-0">
             Philippe Maillard<br/>
             Rua Cel. Luis Alves, 43<br/>
-            04119-030 &nbsp;&nbsp;São Paulo&nbsp;&nbspBrésil
+            Zona rural - Cx. 92 - Alegre de Cima <br> 37530-000 Brazópolis - MG <br> Brésil
             
         </p>
         
         <p class="top-0">
-            +55 11 5539-7636<br/>
+            Mobile: +55 35 99866-4608<br/>
+            WhatsApp: 55 11 97593-6553<br/>
             <a href="http://www.ph-maillard.com">www.ph-maillard.com</a><br/>
             <a href="mailto:philippe@ph-maillard.com">philippe@ph-maillard.com</a>
         </p>

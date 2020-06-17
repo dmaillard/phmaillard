@@ -1,1 +1,195 @@
-s
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+    <head>
+
+        <title>Philippe Maillard, professional translator. Accuracy first.</title>
+		<meta name="fragment" content="!"/>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+
+        <link rel="stylesheet" type="text/css" href="https://ph-maillard.com/jquery.qtip.css"/>
+        <link rel="stylesheet" type="text/css" href="https://ph-maillard.com/nivo-slider.css"/> 
+        <link rel="stylesheet" type="text/css" href="https://ph-maillard.com/jquery.jScrollPane.css"/>
+        <link rel="stylesheet" type="text/css" href="https://ph-maillard.com/jquery.fancybox.css"/> 
+
+        <link rel="stylesheet" type="text/css" href="https://ph-maillard.com/base.css"/> 
+        <link rel="stylesheet" type="text/css" href="https://ph-maillard.com/page.css"/> 
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700,300,200"/>    
+        
+        <script type="text/javascript" src="https://ph-maillard.com/linkify.js"></script>
+        <script type="text/javascript" src="https://ph-maillard.com/jquery.min.js"></script>
+        <script type="text/javascript" src="https://ph-maillard.com/jquery.easing.js"></script>
+        <script type="text/javascript" src="https://ph-maillard.com/jquery.blockUI.js"></script>
+        <script type="text/javascript" src="https://ph-maillard.com/jquery.bxSlider.js"></script>
+        <script type="text/javascript" src="https://ph-maillard.com/jquery.qtip.min.js"></script>
+        <script type="text/javascript" src="https://ph-maillard.com/jquery.fancybox.js"></script>
+        <script type="text/javascript" src="https://ph-maillard.com/jquery.mousewheel.js"></script>
+        <script type="text/javascript" src="https://ph-maillard.com/jquery.ba-bqq.min.js"></script>
+        <script type="text/javascript" src="https://ph-maillard.com/jquery.jScrollPane.js"></script>
+        <script type="text/javascript" src="https://ph-maillard.com/jquery.nivo.slider.js"></script>
+      
+        <!--<script type="text/javascript" src="https://ph-maillard.com/script.js"></script>-->
+        <script type="text/javascript" src="script/prestige.js"></script>
+        <!--<script type="text/javascript" src="https://ph-maillard.com/main.js"></script>-->
+        <script type="text/javascript" src="https://ph-maillard.com/contact-form.js"></script>
+
+<script type="text/javascript">
+function getRandom(min,max)
+{return((Math.floor(Math.random()*(max-min)))+min);}
+function clearInput(object,action,defaulValue)
+{var object=$(object);var value=jQuery.trim(object.val());if(action=='focus')
+{if(value==defaulValue)object.val('');}
+else if(action=='blur')
+{if(value=='')object.val(defaulValue);}}
+function blockForm(formId,action)
+{if(action=='block')
+$('#'+formId).find('.block').block({message:false,overlayCSS:{opacity:'0.3'}});else $('#'+formId).find('.block').unblock();}
+</script>
+
+<script type="text/javascript">
+$(document).ready(function()
+{var page={'profile':{html:'page-1.html',js:'page-1.js',className:'page-1',defaultPage:1,main:1},'resume':{html:'page-2.html',js:'page-2.js',className:'page-2',defaultPage:0,main:1},'folio':{html:'page-3.html',js:'page-3.js',className:'page-3',defaultPage:0,main:1},'references':{html:'page-4.html',js:'page-4.js',className:'page-4',defaultPage:0,main:1},'contact':{html:'page-5.php',js:'page-5.js',className:'page-5',defaultPage:0,main:1}};$('#prestige').prestige(page);});
+</script>
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-31580830-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+    </head>
+
+    <body>
+        
+        <!-- Main -->
+        <div class="main box-center">
+            
+            <!-- Header -->
+            <div class="header layout-50 overflow-fix">
+                
+                <!-- Logo -->
+                <div class="layout-50-left">
+                    <h1>Philippe Maillard</h1>
+                    <h4>Professional Translator</h4>
+                </div>
+                <!-- /Logo -->
+                
+                <!-- Latest tweets -->
+                <div class="layout-50-right">
+                    <!--<div id="latest-tweets"></div>-->
+“The bitterness of poor quality remains long after<br/> the sweetness of low price is forgotten” – <i>Benjamin Franklin</i>
+                     <div class="form-line">
+                    <a href="./francais/" class="button block" id="contact-send">Français</a>
+                </div>                  
+                </div>
+                <!-- /Latest tweets -->
+                
+            </div>
+            <!-- /Header -->            
+            
+            <!-- Content -->
+            <div class="content">
+                
+                <div id="prestige">
+                    
+                    <!-- Previous arrow 
+                    <a href="#" id="prestige-navigation-prev"></a>
+                     /Previous arrow -->
+
+                    <!-- Menu -->
+                    <ul id="prestige-menu">
+                        <li id="prestige-menu-element-page-1">
+                            <a href="#!/profile">
+                                <span class="title">Profile</span>
+                                <span class="subtitle">About me</span>
+                            </a>
+                        </li>
+                        <li id="prestige-menu-element-page-2">
+                            <a href="#!/resume">
+                                <span class="title">Resume</span>
+                                <span class="subtitle">Personal info</span>
+                            </a>
+                        </li>
+
+                        <li id="prestige-menu-element-page-4">
+                            <a href="#!/references">
+                                <span class="title">References</span>
+                                <span class="subtitle">&amp; Testimonials</span>
+                            </a>
+                        </li>
+                        <li id="prestige-menu-element-page-3">
+                            <a href="#!/folio">
+                                <span class="title">Sample Translations</span>
+                                <span class="subtitle">Work experience</span>
+                            </a>
+                        </li>                        
+                        <li id="prestige-menu-element-page-5">
+                            <a href="#!/contact">
+                                <span class="title">Contact</span>
+                                <span class="subtitle">Get in touch</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- /Menu -->
+                    
+                    <!-- Window -->
+                    <div id="prestige-window"> 
+                        
+                        <!-- Background -->
+                        <div id="prestige-window-background">
+                            
+                            <!-- Scroll area -->
+                            <div id="prestige-window-scroll">
+                    
+                                <!-- Content -->
+                                <div id="prestige-window-content">
+
+                                </div>
+                                <!-- /Content -->
+                                
+                            </div>
+                            <!-- /Scroll area -->
+
+                        </div>
+                        <!-- /Background -->
+                        
+                    </div>
+                    <!-- /Window -->
+                    
+                    <!-- Next arrow 
+                    <a href="#" id="prestige-navigation-next"></a>
+                     /Next arrow -->
+
+                </div>
+                
+            </div>
+            <!-- /Content -->
+            
+            <!-- Footer -->
+            <div class="footer">
+                
+                <!-- Menu -->
+                <ul class="footer-menu no-list">
+                    <li>Copyright 2012 Philippe Maillard</li>
+                    <li><a href="#!/profile">Profile</a></li>
+                    <li><a href="#!/resume">Resume</a></li>
+                    <li><a href="#!/references">References &amp; Testimonials</a></li>
+                    <li><a href="#!/folio">Sample Translations</a></li>                   
+                    <li><a href="#!/contact">Contact</a></li>
+                </ul>
+                <!-- /Menu -->
+                
+            </div>
+            <!-- /Footer -->
+            
+        </div>
+        <!-- /Main -->
+        
+    </body>
+
+</html>
